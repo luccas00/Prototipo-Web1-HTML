@@ -2,11 +2,14 @@
   "routes": [
     {
       "route": "/",
-      "serve": "/HTML/index.html"
+      "rewrite": "/HTML/index.html"
     },
     {
       "route": "/index.html",
-      "serve": "/HTML/index.html"
+      "rewrite": "/HTML/index.html"
     }
-  ]
+  ],
+  "navigationFallback": {
+    "rewrite": "/HTML/index.html"
+  }
 }
