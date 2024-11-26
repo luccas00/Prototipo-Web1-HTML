@@ -1,8 +1,8 @@
 {
   "routes": [
     {
-      "route": "/*",
-      "rewrite": "/HTML/index.html"
+      "route": "/",
+      "serve": "/HTML/index.html"
     }
   ]
 }
